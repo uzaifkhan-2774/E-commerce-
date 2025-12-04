@@ -27,7 +27,7 @@ const products = [
         "brand": "Jordan",
         "price": 10917,
         "title": "Air Jordan 1 Mens Mid",
-        "descrip": "sportswear",
+        "desc": "sportswear",
         "imgURL": "https://static.nike.com/a/images/t_prod/w_1920,c_limit/17d4db6e-edbe-4812-ba68-123bb201b928/meet-michael-jordan-s-newest-signature-shoe-the-air-jordan-xxxix.jpg",
         "id": 4
     },
@@ -43,7 +43,7 @@ const products = [
         "brand": "Nike",
         "price": 8999,
         "title": "Nike Ultraboost 23 Black Green Stuff Factory",
-        "descrip": "Running Premium",
+        "desc": "Running Premium",
         "imgURL": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7a8181bb376f47fbbb0d2ae516fdb143_9366/pureboost-5-running-shoes.jpg",
         "id": 6
     },
@@ -59,7 +59,7 @@ const products = [
         "brand": "Addidas",
         "price": 5000,
         "title": "Adidas Adizero Boston 12",
-        "descrip": "Running shoes",
+        "desc": "Running shoes",
         "imgURL": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/7a8181bb376f47fbbb0d2ae516fdb143_9366/pureboost-5-running-shoes.jpg",
         "id": 8
     },
@@ -67,7 +67,7 @@ const products = [
         "brand": "Jordan",
         "price": 10918,
         "title": "Jordan Max Aura 6 Men's Shoes",
-        "descrip": "a silhouette that adds history and heritage to your fit and is ready for whatever you get into.",
+        "desc": "a silhouette that adds history and heritage to your fit and is ready for whatever you get into.",
         "imgURL": "https://static.nike.com/a/images/w_1280,q_auto,f_auto/a2ee0db7-be80-4b0e-8c08-5a7f2d71f83c/air-jordan-1-mid-se-white-and-black-dh6933-100-release-date.jpg",
         "id": 9
     },
@@ -75,7 +75,7 @@ const products = [
         "brand": "deckers brands",
         "price": 7000,
         "title": "BLACK+DECKER Oil Resistance",
-        "descrip": "high Ackle Premium",
+        "desc": "high Ackle Premium",
         "imgURL": "https://karamonline.com/media/catalog/product/cache/b84c5b330a8934593c25024fe8b9ba8e/b/x/bxwb0167in-01.jpg",
         "id": 10
     },
@@ -115,7 +115,7 @@ const products = [
         "brand": "Puma",
         "price": 10220,
         "title": "Puma men's lesup sneaker",
-        "descrip": "Sneakers",
+        "desc": "Sneakers",
         "imgURL": "https://sportsstation.in/cdn/shop/files/Cell-Thrill-Unisex-Running-Shoes.jpg?v=1756101933",
         "id": 15
     },
@@ -123,7 +123,7 @@ const products = [
         "brand": "Jordan",
         "price": 19495,
         "title": "Nike Men's Air Jordan 4 Retro",
-        "descrip": "Retro Shoes",
+        "desc": "Retro Shoes",
         "imgURL": "https://sneakerzone.it/cdn/shop/files/2dHI4ODvauv9vbaNAir-Jordan-4-Retro-Fear-2024-Product.jpg?v=1734553991",
         "id": 16
     },
@@ -227,7 +227,7 @@ const products = [
         "brand": "Nike",
         "price": 1099,
         "title": "Men's Lace-up Casual Shoes - WS97538 Navy Blue Grey - 8",
-        "descrip": "Lace-up Shoes",
+        "desc": "Lace-up Shoes",
         "imgURL": "https://www.walkaroo.in/cdn/shop/files/08_23c2e4d6-9d9c-4f0f-a815-2ca089c5b1ee.jpg?v=1753514982&width=1600",
         "id": 29
     },
@@ -267,7 +267,7 @@ const products = [
         "brand": "Jordan",
         "price": 8575,
         "title": "Kids Air Jordan 4",
-        "descrip": "Kids Shoes",
+        "desc": "Kids Shoes",
         "imgURL": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiiEymMxn9MCwMU2CqLy6eG6k6w27RDAlkgLTQPlFd-6yj4NoreZPIIjqSgS54ULLUkvRlEshKRLDCU7kUCeF93gg_t0h8LhuC4LatmRHx9w9FTrO8myxIbA",
         "id": 34
     },
@@ -347,7 +347,7 @@ const products = [
         "brand": "deckers brands",
         "price": 5755,
         "title": "BLACK+DECKER industial",
-        "descrip": "high Ackle",
+        "desc": "high Ackle",
         "imgURL": "https://karamonline.com/media/catalog/product/cache/509850b11aa2210ac1d2c31fec93d22f/b/x/bxwb0166in-01.jpg",
         "id": 44
     },
@@ -355,7 +355,7 @@ const products = [
         "brand": "Puma",
         "price": 10999,
         "title": "Puma Mostro Sneakers",
-        "descrip": "sneakers",
+        "desc": "sneakers",
         "imgURL": "https://media.landmarkshops.in/cdn-cgi/image/h=550,w=550,q=85,fit=cover/lifestyle/1000013708258-Black-Black-1000013708258_01-2100.jpg",
         "id": 45
     },
@@ -379,7 +379,7 @@ const products = [
         "brand": "deckers brands",
         "price": 2344,
         "title": "BLACK+DECKER Men's High Ankle Safety Shoes",
-        "descrip": "high Ackle + Less Up Shoes",
+        "desc": "high Ackle + Less Up Shoes",
         "imgURL": "https://karamonline.com/media/catalog/product/cache/b84c5b330a8934593c25024fe8b9ba8e/b/x/bxwb0168in-01_1_2.jpg",
         "id": 48
     },
@@ -387,7 +387,7 @@ const products = [
         "brand": "Addidas",
         "price": 8999,
         "title": "adidas Men Ultraboost 1.0 US",
-        "descrip": "sport shoes",
+        "desc": "sport shoes",
         "imgURL": "https://t4.ftcdn.net/jpg/05/30/14/23/360_F_530142333_e0J6JBtkZzjTFpTIBpHa8LgAgXkL8wnt.jpg",
         "id": 49
     },
@@ -403,7 +403,7 @@ const products = [
         "brand": "Addidas",
         "price": 9990,
         "title": "adidas Originals Superstar II",
-        "descrip": "formal shoes",
+        "desc": "formal shoes",
         "imgURL": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3baa2f1ace904af8a11fdac4c624521e_9366/forum-low-cl-shoes.jpg",
         "id": 51
     },
@@ -459,7 +459,7 @@ const products = [
         "brand": "Jordan",
         "price": 12840,
         "title": "Nike Men's jordan Sneakers",
-        "descrip": "Retro Shoes",
+        "desc": "Retro Shoes",
         "imgURL": "https://justfreshkicks.com/wp-content/uploads/2021/08/Air-Jordan-4-DIY-Kids-DC4101-100-Release-Date-4.jpeg",
         "id": 58
     },
@@ -507,7 +507,7 @@ const products = [
         "brand": "Jordan",
         "price": 14527,
         "title": "jordan Jumpman MVP Men's",
-        "descrip": "iconic sportswear",
+        "desc": "iconic sportswear",
         "imgURL": "https://images-cdn.ubuy.co.in/687378ae5f4f7b87120e2e3f-jordan-mvp-mens-shoes.jpg",
         "id": 64
     },
@@ -523,7 +523,7 @@ const products = [
         "brand": "Nike",
         "price": 5340,
         "title": "Nike Men's Court Shot Shoes",
-        "descrip": "Premium Sport Shoes",
+        "desc": "Premium Sport Shoes",
         "imgURL": "https://www.walkaroo.in/cdn/shop/files/1_2306b3e5-1a34-4f1b-b822-3a921b8f323e.jpg?v=1753514867",
         "id": 66
     },
@@ -539,7 +539,7 @@ const products = [
         "brand": "Addidas",
         "price": 1350,
         "title": "adidas Fluento M Running Shoes For",
-        "descrip": "formal shoes",
+        "desc": "formal shoes",
         "imgURL": "https://brand.assets.adidas.com/image/upload/PAC_ORIGINALS_SHOES_PLP_IWP_TILE_CAMPUS_5e49714426.jpg",
         "id": 68
     },
@@ -595,7 +595,7 @@ const products = [
         "brand": "Puma",
         "price": 2340,
         "title": "Puma Men fire v2",
-        "descrip": "casual shoes",
+        "desc": "casual shoes",
         "imgURL": "https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/19348154/2025/2/5/db6b9e63-6917-4b12-a1bd-6bd15237344e1738760991222-Puma-Men-Blue-Colourblocked-Fire-V2-Sneakers-576173876099075-1.jpg",
         "id": 75
     },
@@ -619,7 +619,7 @@ const products = [
         "brand": "Nike",
         "price": 4599,
         "title": "Nike Men's Downshifter 13 Road",
-        "descrip": "Running Shoes",
+        "desc": "Running Shoes",
         "imgURL": "https://i.ebayimg.com/images/g/w2MAAOSwRxpkz-nJ/s-l400.jpg",
         "id": 78
     },
@@ -647,7 +647,7 @@ const products = [
 localStorage.setItem("product",JSON.stringify(products));   //storing data in local storage
 
 
- const prod =JSON.parse(localStorage.getItem("product"))
+ const prod =JSON.parse(localStorage.getItem("product")) || [];
 
     
     {/* <div class="card">
