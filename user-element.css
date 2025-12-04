@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  
+  .head-class {
+    background: linear-gradient(135deg, #4a90e2, #0072ff);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .head-class h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  
+
+  .main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    width: 90%;
+    margin: 40px auto;
+  }
+  
+  
+  .card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.13);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  
+  .card-Img {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .card-Img img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+  
+ 
+  .info {
+    padding: 15px;
+  }
+  
+  .info h3 {
+    color: #0072ff;
+    font-size: 1.1rem;
+  }
+  
+  .info h2 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .info h4 {
+    margin: 8px 0;
+    font-size: 1.1rem;
+    color: #222;
+  }
+  
+  .info h4 span {
+    font-size: 0.9rem;
+    margin-left: 8px;
+    color: gray;
+  }
+  
+  .info p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  
+  
+  .info button {
+    width: 100%;
+    min-height: 45px;
+    background: #0072ff;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .info button:hover {
+    background: #0056cc;
+  }
+ 
+  
+  @media (max-width: 1200px) {
+    .main-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  
+  @media (max-width: 992px) {
+    .main-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .card-Img {
+      height: 220px;
+    }
+  }
+  
+
+  @media (max-width: 576px) {
+    .main-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .head-class h1 {
+      font-size: 1.6rem;
+    }
+  
+    .info button {
+      font-size: 0.9rem;
+      min-height: 40px;
+    }
+  }
